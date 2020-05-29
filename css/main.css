@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+canvas{
+    display: block;
+}
+
+h1{
+    position: absolute;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 7em;
+    width: auto;
+    line-height: .8em;
+    padding: .2em;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: .2em;
+    margin: 0;
+    display: grid;
+    font-family: 'Montserrat';
+    font-size: 7em;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: middle;
+    place-items: center;
+    width: auto;
+    line-height: .8em;
+    z-index: 100;
+}
